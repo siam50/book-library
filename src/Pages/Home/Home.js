@@ -1,10 +1,16 @@
 import React from "react";
 import Banner from "./Banner/Banner";
+import TellOurStory from "./TellOurStory/TellOurStory";
+import Slider from "./Slider/Slider";
+import CustomerSay from "./CustomerSay/CustomerSay";
 
 const Home = () => {
   return (
     <div>
+      <Slider></Slider>
       <Banner></Banner>
+      <TellOurStory></TellOurStory>
+      <CustomerSay></CustomerSay>
     </div>
   );
 };
