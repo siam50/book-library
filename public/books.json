@@ -1,0 +1,98 @@
+[
+    {
+      "id": "642ef467fc979a02b635e472",
+      "category":"New Arrival",
+      "title": " In Search of Lost Time",
+      "author":"Marcel Proust",
+      "image": "https://m.media-amazon.com/images/I/41LWmHoPnGL.jpg",
+      "description": "Swann's Way, the first part of A la recherche de temps perdu, Marcel Proust's seven-part cycle, was published in 1913. In it, Proust introduces the themes that run through the entire work. The narr..."
+    },
+    {
+      "id": "642ef467a3f50a0d8eed8892",
+      "category":"New Arrival",
+      "title": "Ulysses",
+      "author":"James Joyce",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTmqecf8Z2EPhU7HsN5b8D2U9gfONleMMk6ZkXtSf63uAokwNOmaSywGUT3XDGBuRvWA&usqp=CAU",
+      "description": "Alonso Quixano, a retired country gentleman in his fifties, lives in an unnamed section of La Mancha with his niece and a housekeeper. He has become obsessed with books of chivalry, and believes th..."
+    },
+    {
+      "id": "642ef46744750d1d93ec02ee",
+      "category":"New Arrival",
+      "title": " Don Quixote",
+      "author":" Miguel de Cervantes",
+      "image": "https://mpd-biblio-covers.imgix.net/9781466805330.jpg",
+      "description": " lives in an unnamed section of La Mancha with his niece and a housekeeper. He has become obsessed with books of chivalry."
+    },
+    {
+      "id": "642ef467f3c67104658a4678",
+      "category":"New Arrival",
+      "title": " The Great Gatsby",
+      "author":" F. Scott Fitzgerald",
+      "image": "https://cdn.penguin.co.uk/dam-assets/books/9780241570029/9780241570029-jacket-large.jpg",
+      "description": "The novel chronicles an era that Fitzgerald himself dubbed the. Following the shock and chaos of World War I, American society enjoyed unprecedented levels of prosperity during the"
+    },
+    {
+      "id": "642ef4672593b7163d6373c2",
+      "category":"Fetured",
+      "title": " War and Peace",
+      "author":"Leo Tolstoy",
+      "image": "https://468475f702638606e98e-464051861458045a3bee0e7a3c2a1812.ssl.cf3.rackcdn.com/products/large/717566d9d9eda0ea4664182871ba6c68.jpg",
+      "description": "Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of fi..."
+    },
+    {
+      "id": "642ef4672019df71a6a4218b",
+      "category":"Fetured",
+      "title": "Hamlet",
+      "author":" William Shakespeare",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51JkDEpHUQL._SX342_SY445_QL70_ML2_.jpg",
+      "description": "The Tragedy of Hamlet, Prince of Denmark, or more simply Hamlet, is a tragedy by William Shakespeare, believed to have been written between 1599 and 1601. The play, set in Denmark, recounts how Pri..."
+    },
+    {
+      "id": "642ef467cbe81ab273d0e653",
+      "category":"Fetured",
+      "title": " The Odyssey",
+      "author":"Homer",
+      "image": "http://cdn.shopify.com/s/files/1/0460/3153/6296/products/ModernAllinone.jpg?v=1604301061",
+      "description": "The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work traditionally ascribed to Homer. The poem is fundamental to the m..."
+    },
+    {
+      "id": "642ef4672192baade468f13f",
+      "category":"Fetured",
+      "title": "Lolita",
+      "author":"Vladimir Nabokov",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1530019339i/33026840.jpg",
+      "description": "The book is internationally famous for its innovative style and infamous for its controversial subject: the protagonist and unreliable narrator"
+    },
+    {
+      "id": "642ef467eec0c4271c089c7d",
+      "category":"Magazine",
+      "title": "John Doe",
+      "author":"Tikar More",
+      "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91YJ2F07mqL._AC_SL1500_.jpg",
+      "description": "Innovative style and infamous for its controversial subject: the protagonist and unreliable narrator, middle aged Humbert Humbert, becomes obsessed and se..."
+    },
+    {
+      "id": "642ef467af2bffb294c27cea",
+      "category":"Magazine",
+      "title": "Pitter More",
+      "author":"Javer Killu",
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471155444/how-to-be-single-9781471155444_hr.jpg",
+      "description": "The book is internationally famous for its innovative style and infamous for its controversial subject: the protagonist and unreliable narrator"
+    },
+    {
+      "id": "642ef467761c7f7cf6ba5b17",
+      "category":"Magazine",
+      "title": "Kafar",
+      "author":"Illiyana Dai",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvfA883G47wtcmbNoa7Dny495Se2Ifg_GzC71viy8MvbFwyEOtXIY8dZU40CcmcqzwUY&usqp=CAU",
+      "description": "The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work traditionally ascribed to Homer. The poem is fundamental to the m..."
+    },
+    {
+      "id": "642ef467f2709be8caabb9c4",
+      "category":"Magazine",
+      "title": "Wasima",
+      "author":"Zanan Mita",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Single%26Single.jpg",
+      "description": "Innovative style and infamous for its controversial subject: the protagonist and unreliable narrator, middle aged Humbert Humbert, becomes obsessed and se..."
+    }
+  ]

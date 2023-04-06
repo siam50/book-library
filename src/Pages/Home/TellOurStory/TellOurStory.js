@@ -9,28 +9,28 @@ import {
 const TellOurStory = () => {
   return (
     <div>
-      <section class="py-10 bg-gray-100 sm:py-16 lg:py-20 my-12 md:my-20">
-        <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-          <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold leading-tight text-accent sm:text-4xl lg:text-5xl">
+      <section className="py-10 bg-gray-100 sm:py-16 lg:py-20 my-12 md:my-20">
+        <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl font-bold leading-tight text-accent sm:text-4xl lg:text-5xl">
               Numbers Tell Our Story
             </h2>
-            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+            <p className="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis.
             </p>
           </div>
 
-          <section class=" bg-gray-100 ">
-            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div class="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
-                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                  <div class="px-4 py-6">
-                    <div class="flex items-start">
-                      <HiOutlineBolt class="flex-shrink-0 w-12 h-12 text-accent" />
-                      <div class="ml-4">
-                        <h4 class="text-4xl font-bold text-gray-900">6+</h4>
-                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">
+          <section className=" bg-gray-100 ">
+            <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+              <div className="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
+                <div className="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                  <div className="px-4 py-6">
+                    <div className="flex items-start">
+                      <HiOutlineBolt className="flex-shrink-0 w-12 h-12 text-accent" />
+                      <div className="ml-4">
+                        <h4 className="text-4xl font-bold text-gray-900">6+</h4>
+                        <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">
                           Years in business
                         </p>
                       </div>
@@ -38,13 +38,15 @@ const TellOurStory = () => {
                   </div>
                 </div>
 
-                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                  <div class="px-4 py-6">
-                    <div class="flex items-start">
-                      <HiOutlineUsers class="flex-shrink-0 w-12 h-12 text-accent" />
-                      <div class="ml-4">
-                        <h4 class="text-4xl font-bold text-gray-900">12+</h4>
-                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">
+                <div className="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                  <div className="px-4 py-6">
+                    <div className="flex items-start">
+                      <HiOutlineUsers className="flex-shrink-0 w-12 h-12 text-accent" />
+                      <div className="ml-4">
+                        <h4 className="text-4xl font-bold text-gray-900">
+                          12+
+                        </h4>
+                        <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">
                           Library members
                         </p>
                       </div>
@@ -52,13 +54,15 @@ const TellOurStory = () => {
                   </div>
                 </div>
 
-                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                  <div class="px-4 py-6">
-                    <div class="flex items-start">
-                      <HiOutlineBookOpen class="flex-shrink-0 w-12 h-12 text-accent" />
-                      <div class="ml-4">
-                        <h4 class="text-4xl font-bold text-gray-900">3,274</h4>
-                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">
+                <div className="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                  <div className="px-4 py-6">
+                    <div className="flex items-start">
+                      <HiOutlineBookOpen className="flex-shrink-0 w-12 h-12 text-accent" />
+                      <div className="ml-4">
+                        <h4 className="text-4xl font-bold text-gray-900">
+                          3,274
+                        </h4>
+                        <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">
                           Books delivered
                         </p>
                       </div>
@@ -66,13 +70,15 @@ const TellOurStory = () => {
                   </div>
                 </div>
 
-                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                  <div class="px-4 py-6">
-                    <div class="flex items-start">
-                      <HiOutlineHandThumbUp class="flex-shrink-0 w-12 h-12 text-accent" />
-                      <div class="ml-4">
-                        <h4 class="text-4xl font-bold text-gray-900">95%</h4>
-                        <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">
+                <div className="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                  <div className="px-4 py-6">
+                    <div className="flex items-start">
+                      <HiOutlineHandThumbUp className="flex-shrink-0 w-12 h-12 text-accent" />
+                      <div className="ml-4">
+                        <h4 className="text-4xl font-bold text-gray-900">
+                          95%
+                        </h4>
+                        <p className="mt-1.5 text-lg font-medium leading-tight text-gray-500">
                           Customer success
                         </p>
                       </div>
@@ -91,7 +97,7 @@ const TellOurStory = () => {
 export default TellOurStory;
 
 <svg
-  class="flex-shrink-0 w-12 h-12 text-accent"
+  className="flex-shrink-0 w-12 h-12 text-accent"
   xmlns="http://www.w3.org/2000/svg"
   fill="none"
   viewBox="0 0 24 24"
