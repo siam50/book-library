@@ -15,27 +15,7 @@ const Category = () => {
       .then((data) => setBooks(data));
   }, []);
 
-  // if (newArrivals) {
-  //   const categoryItem = books?.filter(
-  //     (element) => element?.category === "New Arrival"
-  //   );
-  //   if (categoryItem.length !== 0) {
-  //     setBooks(categoryItem);
-  //   } else {
-  //     console.log("faka array");
-  //   }
-  // } else if (featured) {
-  //   const categoryItem = books?.filter(
-  //     (element) => element?.category === "Fetured"
-  //   );
-  //   setBooks(categoryItem);
-  // } else if (magazine) {
-  //   const categoryItem = books?.filter(
-  //     (element) => element?.category === "Magazine"
-  //   );
-  //   setBooks(categoryItem);
-  // }
-
+  // Handle Category wise Book show
   const handleNewArrivals = () => {
     setNewArrivals(true);
     setFeatured(false);
@@ -52,27 +32,36 @@ const Category = () => {
     setMagazine(true);
   };
 
-  // if (books.length === 0) {
-  //   return (
-  //     <>
-  //       <h1>Loading......</h1>
-  //     </>
-  //   );
-  // }
   return (
-    <div className="py-10 bg-gray-100 lg:py-16 my-12 md:my-20">
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold leading-tight text-accent sm:text-4xl lg:text-5xl">
+    <div
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      className="py-10 md:py-28"
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        className="max-w-2xl mx-auto text-center"
+      >
+        <h2 className="text-3xl font-bold leading-tight text-blue-500 sm:text-4xl lg:text-5xl">
           Category
         </h2>
+        <p className="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+          Lorem Ipsum Illia kar non deserunt ullamco est sit aliqua dolor do
+          amet sint. Velit officia consequat duis.
+        </p>
       </div>
-      <div className="md:flex ps-5 pt-5 cursor-pointer text-center">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        className="md:flex ps-5 pt-10 cursor-pointer text-center"
+      >
         <h1
           onClick={handleNewArrivals}
           className={
             newArrivals
-              ? "text-blue-600 text-2xl font-semibold"
-              : " text-gray-400 text-2xl font-semibold"
+              ? "text-blue-500 text-2xl font-bold"
+              : " text-gray-400 text-2xl font-bold"
           }
         >
           New Arrivals
@@ -81,8 +70,8 @@ const Category = () => {
           onClick={handleFeatured}
           className={
             featured
-              ? "text-blue-600 text-2xl font-semibold ms-5"
-              : " text-gray-400 text-2xl font-semibold ms-5"
+              ? "text-blue-500 text-2xl font-bold ms-5"
+              : " text-gray-400 text-2xl font-bold ms-5"
           }
         >
           Featured
@@ -91,14 +80,14 @@ const Category = () => {
           onClick={handleMagazine}
           className={
             magazine
-              ? "text-blue-600 text-2xl font-semibold ms-5"
-              : " text-gray-400 text-2xl font-semibold ms-5"
+              ? "text-blue-500 text-2xl font-bold ms-5"
+              : " text-gray-400 text-2xl font-bold ms-5"
           }
         >
           Magazine
         </h1>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-easing="ease-in-out">
         {newArrivals && <NewArrivals books={books}></NewArrivals>}
         {featured && <Featured books={books}></Featured>}
         {magazine && <Magazine books={books}></Magazine>}

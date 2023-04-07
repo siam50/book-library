@@ -16,8 +16,8 @@ const ReviewSlider = () => {
   return (
     <div className=" cursor-pointer">
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+        slidesPerView={4}
+        spaceBetween={25}
         freeMode={true}
         pagination={{
           clickable: true,
@@ -26,42 +26,8 @@ const ReviewSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="container border-2 bg-white flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700  text-black">
-            <div className="flex justify-between p-4">
-              <div className="flex space-x-4">
-                <div>
-                  <img
-                    src="https://images.saymedia-content.com/.image/t_share/MTg3ODcyNzg5MjEzMDI5NDMw/greatest-hollywood-actors.jpg"
-                    alt=""
-                    className="object-cover w-12 h-12 rounded-full bg-gray-500"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-bold">Leroy Jenkins</h4>
-                  <span className="text-xs text-gray-400">2 days ago</span>
-                </div>
-              </div>
-              <div className="flex items-center space-x-2 text-yellow-500">
-                <HiStar className="w-5 h-5 fill-current" />
-                <span className="text-xl font-bold">5</span>
-              </div>
-            </div>
-            <div className="p-4 space-y-2 text-sm text-black">
-              <p>
-                Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
-                dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
-                finibus.
-              </p>
-              <p>
-                Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-                mauris cursus venenatis. Maecenas gravida urna vitae accumsan.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="container border-2 bg-white flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700  text-black">
-            <div className="flex justify-between p-4">
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
               <div className="flex space-x-4">
                 <div>
                   <img
@@ -70,32 +36,30 @@ const ReviewSlider = () => {
                     className="object-cover w-12 h-12 rounded-full bg-gray-500"
                   />
                 </div>
-                <div>
-                  <h4 className="font-bold">John Doe</h4>
-                  <span className="text-xs text-gray-400">2 days ago</span>
-                </div>
               </div>
-              <div className="flex items-center space-x-2 text-yellow-500">
+              <div className="flex items-center space-x-1 text-blue-500">
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
                 <FaStarHalfAlt className="w-5 h-5 fill-current" />
-                <span className="text-xl font-bold">4.5</span>
               </div>
             </div>
-            <div className="p-4 space-y-2 text-sm text-black">
+            <div className=" py-2">
+              <h4 className="font-bold">John Doe</h4>
+            </div>
+            <div className="text-sm text-black">
               <p>
                 Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
                 dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
                 finibus.
               </p>
-              <p>
-                Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-                mauris cursus venenatis. Maecenas gravida urna vitae accumsan.
-              </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container border-2 bg-white flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700  text-black">
-            <div className="flex justify-between p-4">
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
               <div className="flex space-x-4">
                 <div>
                   <img
@@ -104,93 +68,151 @@ const ReviewSlider = () => {
                     className="object-cover w-12 h-12 rounded-full bg-gray-500"
                   />
                 </div>
-                <div>
-                  <h4 className="font-bold">Summy Chui</h4>
-                  <span className="text-xs text-gray-400">2 days ago</span>
-                </div>
               </div>
-              <div className="flex items-center space-x-2 text-yellow-500">
+              <div className="flex items-center space-x-1 text-blue-500">
                 <HiStar className="w-5 h-5 fill-current" />
-                <span className="text-xl font-bold">5</span>
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
               </div>
             </div>
-            <div className="p-4 space-y-2 text-sm text-black">
+            <div className=" py-2">
+              <h4 className="font-bold">Sara Khan</h4>
+            </div>
+            <div className="text-sm text-black">
               <p>
                 Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
                 dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
                 finibus.
               </p>
-              <p>
-                Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-                mauris cursus venenatis. Maecenas gravida urna vitae accumsan.
-              </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container border-2 bg-white flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700  text-black">
-            <div className="flex justify-between p-4">
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
               <div className="flex space-x-4">
                 <div>
                   <img
-                    src="https://japaninsider.com/wp-content/uploads/2021/09/Japans-Most-Popular-Female-Actors-07-Tao-Tsuchiya-Image-Sourced-from-Asa-Gei-Plus-1024x1024.jpg"
+                    src="https://images.saymedia-content.com/.image/t_share/MTg3ODcyNzg5MjEzMDI5NDMw/greatest-hollywood-actors.jpg"
                     alt=""
                     className="object-cover w-12 h-12 rounded-full bg-gray-500"
                   />
                 </div>
-                <div>
-                  <h4 className="font-bold">Sara Ali</h4>
-                  <span className="text-xs text-gray-400">2 days ago</span>
-                </div>
               </div>
-              <div className="flex items-center space-x-2 text-yellow-500">
-                <FaRegStar className="w-5 h-5 fill-current" />
-                <span className="text-xl font-bold">3.5</span>
-              </div>
-            </div>
-            <div className="p-4 space-y-2 text-sm text-black">
-              <p>
-                Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
-                dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
-                finibus.
-              </p>
-              <p>
-                Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-                mauris cursus venenatis. Maecenas gravida urna vitae accumsan.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="container border-2 bg-white flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700  text-black">
-            <div className="flex justify-between p-4">
-              <div className="flex space-x-4">
-                <div>
-                  <img
-                    src="https://source.unsplash.com/100x100/?portrait"
-                    alt=""
-                    className="object-cover w-12 h-12 rounded-full bg-gray-500"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-bold">Asta Sabil</h4>
-                  <span className="text-xs text-gray-400">2 days ago</span>
-                </div>
-              </div>
-              <div className="flex items-center space-x-2 text-yellow-500">
+              <div className="flex items-center space-x-1 text-blue-500">
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
                 <FaStarHalfAlt className="w-5 h-5 fill-current" />
-                <span className="text-xl font-bold">4.5</span>
+                <FaRegStar className="w-5 h-5 fill-current" />
               </div>
             </div>
-            <div className="p-4 space-y-2 text-sm text-black">
+            <div className=" py-2">
+              <h4 className="font-bold">Leroy Jenkins</h4>
+            </div>
+            <div className="text-sm text-black">
               <p>
                 Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
                 dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
                 finibus.
               </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
+              <div className="flex space-x-4">
+                <div>
+                  <img
+                    src="https://i0.wp.com/filmeshilmy.com/wp-content/uploads/2019/10/Kiara.jpg?ssl=1"
+                    alt=""
+                    className="object-cover w-12 h-12 rounded-full bg-gray-500"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center space-x-1 text-blue-500">
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+              </div>
+            </div>
+            <div className=" py-2">
+              <h4 className="font-bold">Lithu Ana</h4>
+            </div>
+            <div className="text-sm text-black">
               <p>
-                Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-                mauris cursus venenatis. Maecenas gravida urna vitae accumsan.
+                Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
+                dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
+                finibus.
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
+              <div className="flex space-x-4">
+                <div>
+                  <img
+                    src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-693134468.jpg"
+                    alt=""
+                    className="object-cover w-12 h-12 rounded-full bg-gray-500"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center space-x-1 text-blue-500">
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <FaStarHalfAlt className="w-5 h-5 fill-current" />
+              </div>
+            </div>
+            <div className=" py-2">
+              <h4 className="font-bold">John Doe</h4>
+            </div>
+            <div className="text-sm text-black">
+              <p>
+                Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
+                dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
+                finibus.
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="container border-2 border-blue-200 bg-white flex flex-col w-full max-w-lg p-6 mx-auto rounded-md  text-black">
+            <div className="flex justify-between">
+              <div className="flex space-x-4">
+                <div>
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuzexUZ98_JpkTw-JQ6CtVLTU2q-U7vmBm2g&usqp=CAU"
+                    alt=""
+                    className="object-cover w-12 h-12 rounded-full bg-gray-500"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center space-x-1 text-blue-500">
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <HiStar className="w-5 h-5 fill-current" />
+                <FaStarHalfAlt className="w-5 h-5 fill-current" />
+              </div>
+            </div>
+            <div className=" py-2">
+              <h4 className="font-bold">John Doe</h4>
+            </div>
+            <div className="text-sm text-black">
+              <p>
+                Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
+                dictum lectus consequat vitae. Etiam ut dolor id justo fringilla
+                finibus.
               </p>
             </div>
           </div>

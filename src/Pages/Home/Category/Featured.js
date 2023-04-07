@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Featured = ({ books }) => {
   const featured = books?.filter((element) => element.category === "Fetured");
@@ -17,7 +18,9 @@ const Featured = ({ books }) => {
             </div>
             <p>Author: {feature.author}</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Book Now</button>
+              <Link to={`/booking/${feature.id}`}>
+                <button className="btn btn-primary">Book Now</button>
+              </Link>
             </div>
           </div>
         </div>

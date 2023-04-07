@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NewArrivals = ({ books }) => {
   const newArrivals = books?.filter(
@@ -23,7 +24,9 @@ const NewArrivals = ({ books }) => {
             </div>
             <p>Author: {newArrival.author}</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Book Now</button>
+              <Link to={`/booking/${newArrival.id}`}>
+                <button className="btn btn-primary">Book Now</button>
+              </Link>
             </div>
           </div>
         </div>

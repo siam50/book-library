@@ -11,6 +11,7 @@ const Books = () => {
       .then((data) => setBooks(data));
   }, []);
 
+  // Search filtering Operation
   const searchItem = books?.filter((item) => {
     if (search === "") {
       return item;
@@ -22,7 +23,7 @@ const Books = () => {
   return (
     <div className="my-10 md:my-20">
       <div className="flex justify-between">
-        <h1 className="text-3xl font-bold leading-tight text-accent sm:text-4xl lg:text-5xl">
+        <h1 className="text-3xl font-bold leading-tight text-blue-500 sm:text-4xl lg:text-5xl">
           Book Collection
         </h1>
         <input
@@ -35,7 +36,12 @@ const Books = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10 md:my-20 justify-items-center">
         {searchItem?.map((item) => (
-          <div key={item.id} className="card w-72 bg-base-100 shadow-xl">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            key={item.id}
+            className="card w-72 bg-base-100 shadow-xl"
+          >
             <figure className="pt-10">
               <img src={item.image} alt="Shoes" className="rounded-xl h-60" />
             </figure>

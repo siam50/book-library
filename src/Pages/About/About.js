@@ -7,10 +7,10 @@ const About = () => {
         <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
           <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
-              I am building a product that can
+              We are providing a product that can{" "}
               <span class="relative inline-block">
-                <span class="absolute inline-block w-full h-2 bg-yellow-300 bottom-1.5"></span>
-                <span class="relative"> solve developer’s pain </span>
+                <span class="absolute inline-block w-full h-2 bg-blue-300 bottom-1.5"></span>
+                <span class="relative"> solve customer's pain </span>
               </span>
             </h2>
           </div>
@@ -19,18 +19,18 @@ const About = () => {
             <div>
               <img
                 class="w-full mx-auto sm:max-w-xs"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/team/2/business-man.jpg"
+                src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/817hAO-SdEL._AC_UF1000,1000_QL80_.jpg"
                 alt=""
               />
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-gray-900">
-                Hey! I am John, founder of Celebration.
+                Hey! We are BookStore, founder of Celebration.
               </h3>
               <p class="mt-4 text-lg text-gray-700">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                Lorem Ipsum Illia kar non deserunt ullamco est sit aliqua dolor
+                do amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
               <p class="mt-4 text-lg text-gray-700">
@@ -41,7 +41,7 @@ const About = () => {
               </p>
 
               <h3 class="mt-8 text-lg font-semibold text-gray-900">
-                How do I do this without any investment?
+                How do we do this without any investment?
               </h3>
               <p class="mt-4 text-lg text-gray-700">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse

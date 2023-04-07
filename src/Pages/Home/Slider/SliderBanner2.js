@@ -22,13 +22,13 @@ const SliderBanner2 = () => {
               Get full access to Celebration
             </h2>
             <p className="mt-4 text-base w-auto md:w-96 mx-auto text-gray-200">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              Lorem Ipsum Illia kar non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam.
             </p>
             <button
               type="submit"
-              className="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-accent border border-transparent rounded sm:w-auto"
+              className="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded sm:w-auto hover:bg-blue-700 focus:bg-blue-700"
             >
               Login Here
             </button>

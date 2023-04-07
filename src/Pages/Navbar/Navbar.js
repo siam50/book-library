@@ -5,13 +5,8 @@ const Navbar = () => {
   const menue = (
     <>
       <li>
-        <Link className=" text-lg font-medium" to="/about">
-          About Us
-        </Link>
-      </li>
-      <li tabIndex={0}>
-        <Link className=" text-lg font-medium" to="/contact">
-          Contact
+        <Link className=" text-lg font-medium" to="/">
+          Home
         </Link>
       </li>
       <li>
@@ -19,11 +14,21 @@ const Navbar = () => {
           Books
         </Link>
       </li>
+      <li>
+        <Link className=" text-lg font-medium" to="/about">
+          About Us
+        </Link>
+      </li>
+      <li>
+        <Link className=" text-lg font-medium" to="/contact">
+          Contact
+        </Link>
+      </li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100 text-accent">
+      <div className="navbar bg-base-100 text-blue-500 py-5">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,7 +54,7 @@ const Navbar = () => {
               {menue}
             </ul>
           </div>
-          <Link to="/" className="btn btn-ghost normal-case text-3xl">
+          <Link to="/" className="btn btn-ghost normal-case text-4xl font-bold">
             BookStore
           </Link>
         </div>

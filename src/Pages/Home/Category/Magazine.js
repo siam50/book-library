@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Magazine = ({ books }) => {
   const magazines = books?.filter((element) => element.category === "Magazine");
@@ -17,7 +18,9 @@ const Magazine = ({ books }) => {
             </div>
             <p>Author: {magazine.author}</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Book Now</button>
+              <Link to={`/booking/${magazine.id}`}>
+                <button className="btn btn-primary">Book Now</button>
+              </Link>
             </div>
           </div>
         </div>
