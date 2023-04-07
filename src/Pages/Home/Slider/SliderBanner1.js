@@ -22,12 +22,12 @@ const SliderBanner1 = () => {
               Get full access to Celebration
             </h2>
             <p className="mt-4 text-base text-gray-200">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam.
+              Lorem ipsum Use non deserunt ullamco est sit aliqua dolor do amet
+              sint. Velit officia consequat duis enim velit mollit. Exercitation
+              veniam.
             </p>
 
-            <form action="#" method="POST" className="mt-8 lg:mt-12">
+            <form className="mt-8 lg:mt-12">
               <div className="flex flex-col items-center sm:flex-row sm:justify-center">
                 <div className="flex-1 w-full min-w-0 px-4 sm:px-0">
                   <div className="relative text-gray-400 focus-within:text-gray-600">
