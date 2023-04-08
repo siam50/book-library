@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import NewArrivals from "./NewArrivals";
 import Featured from "./Featured";
 import Magazine from "./Magazine";
+import { Link } from "react-router-dom";
 
 const Category = () => {
   const [books, setBooks] = useState([]);
@@ -91,6 +92,11 @@ const Category = () => {
         {newArrivals && <NewArrivals books={books}></NewArrivals>}
         {featured && <Featured books={books}></Featured>}
         {magazine && <Magazine books={books}></Magazine>}
+      </div>
+      <div className="grid justify-items-center pt-10">
+        <Link to="/books">
+          <button className="btn btn-primary">See All</button>
+        </Link>
       </div>
     </div>
   );

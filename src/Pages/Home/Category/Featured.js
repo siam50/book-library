@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Featured = ({ books }) => {
   const featured = books?.filter((element) => element.category === "Fetured");
-  console.log(featured);
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-5 md:mt-10 justify-items-center">
       {featured?.map((feature) => (

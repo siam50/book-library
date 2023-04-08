@@ -30,7 +30,7 @@ const Books = () => {
           onChange={(event) => setSearch(event.target.value)}
           type="text"
           name="search"
-          placeholder="Search here"
+          placeholder="Search Here"
           className="input input-bordered border-blue-200 w-full max-w-xs"
         />
       </div>
@@ -43,7 +43,7 @@ const Books = () => {
             className="card w-72 bg-base-100 shadow-xl"
           >
             <figure className="pt-10">
-              <img src={item.image} alt="Shoes" className="rounded-xl h-60" />
+              <img src={item.image} alt="book" className="rounded-xl h-60" />
             </figure>
             <div className="card-body items-center text-center">
               <div className="flex">

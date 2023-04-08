@@ -37,7 +37,7 @@ const TellOurStory = () => {
             </p>
           </div>
 
-          <div className="">
+          <div data-aos="fade-up" data-aos-easing="ease-in-out" className="">
             <div
               data-aos="fade-up"
               data-aos-easing="ease-in-out"
@@ -50,6 +50,7 @@ const TellOurStory = () => {
               >
                 <div
                   data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
                   className="overflow-hidden bg-white border border-gray-200 rounded-lg"
                 >
                   <div className="px-4 py-6">

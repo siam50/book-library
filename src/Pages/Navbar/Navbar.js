@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineBookOpen } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -54,9 +55,15 @@ const Navbar = () => {
               {menue}
             </ul>
           </div>
-          <Link to="/" className="btn btn-ghost normal-case text-4xl font-bold">
-            BookStore
-          </Link>
+          <div className="flex items-center">
+            <HiOutlineBookOpen className="normal-case text-5xl font-bold" />
+            <Link
+              to="/"
+              className="btn btn-ghost normal-case text-4xl font-bold"
+            >
+              BookStore
+            </Link>
+          </div>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menue}</ul>

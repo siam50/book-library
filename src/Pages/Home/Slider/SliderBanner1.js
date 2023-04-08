@@ -3,7 +3,7 @@ import React from "react";
 const SliderBanner1 = () => {
   return (
     <div>
-      <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
+      <div className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
         <div className="absolute inset-0">
           <img
             className="object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left"
@@ -54,7 +54,7 @@ const SliderBanner1 = () => {
             </form>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
